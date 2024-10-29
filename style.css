@@ -1,32 +1,44 @@
 
-
-#outer{
-    width: 1440px;
-    height: 500px;
-    background-color: aquamarine;
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "outfit", sans-serif;
 }
 
-#inner{
-    width: 375px;
-    height: 500px;
-    background-color: blue;
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.container {
+  width: 20rem;
+  height: 30rem;
+  background-color: white;
+  border-radius: 1.25rem;
+  text-align: center;
+  margin: auto;
+}
 
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
 
+.title {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.text {
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 .attribution {
